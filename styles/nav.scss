@@ -1,0 +1,12 @@
+.nav {
+    a {
+        text-transform: uppercase;
+        color: white;
+    }
+    .nav-link {
+        &:hover {
+        color: #cbcaca;
+    }
+    }
+    
+}
