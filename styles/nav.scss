@@ -1,13 +1,12 @@
 .nav {
-    a {
-        text-transform: uppercase;
-        color: white;
+  a {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .nav-link {
+    &:hover {
+      color: #cbcaca;
     }
-    .nav-link {
-        
-        &:hover {
-        color: #cbcaca;
-    }
-    }
-    
+  }
 }

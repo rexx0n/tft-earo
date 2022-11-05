@@ -4,5 +4,21 @@ header {
 .header {
     display: flex;
     padding-top:2.6rem ;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom:2.08rem ;
+    &__contacts {
+        text-align: right;
+        color: white;
+        p {
+            font-size: 1.13rem;
+            max-width: 350px;
+        }
+        a {
+            color: white;
+            font-weight: 800;
+            line-height: 30px;
+            text-decoration: none;
+        }
+    }
 }
