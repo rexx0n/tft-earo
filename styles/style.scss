@@ -5,6 +5,13 @@
 @import "nav";
 @import "header";
 @import "fonts";
+@import "bg";
 .man {
     width: 100%;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.relative {
 }
