@@ -1,0 +1,44 @@
+.gift {
+  border-radius: 30px;
+  max-width: 710px;
+  background-color: #e5e5e5;
+  &__info {
+    padding-left: 70px;
+    padding-right: 72px;
+    display: flex;
+    flex-direction: column;
+  }
+  h4 {
+    font-family: "Acrom";
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    font-size: 39px;
+    line-height: 47px;
+    padding-left: 36px;
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  div {
+    display: flex;
+    justify-content: space-between;
+    span {
+      font-family: "Acrom";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 47px;
+      line-height: 56px;
+    }
+    p {
+      font-family: "Acrom";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 47px;
+      line-height: 56px;
+      text-transform: uppercase;
+
+      color: #03008d;
+    }
+  }
+}
