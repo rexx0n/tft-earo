@@ -3,10 +3,13 @@
   max-width: 710px;
   background-color: #e5e5e5;
   &__info {
-    padding-left: 70px;
-    padding-right: 72px;
+    padding-left: 32px;
+    padding-right: 52px;
     display: flex;
     flex-direction: column;
+    div {
+      padding-top: 26px;
+    }
   }
   h4 {
     font-family: "Acrom";
@@ -15,14 +18,19 @@
     text-align: start;
     font-size: 39px;
     line-height: 47px;
-    padding-left: 36px;
+    text-align: center;
     color: white;
+    text-transform: uppercase;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   }
   div {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid black;
+    &:last-child {
+      border-bottom: none;
+    }
     span {
       font-family: "Acrom";
       font-style: normal;

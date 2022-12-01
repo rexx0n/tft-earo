@@ -1,0 +1,9 @@
+.try {
+    padding-top: 66px;
+    &__row {
+        margin-bottom: 24px;
+        &--last {
+            margin-bottom: 57px;
+        }
+    }
+}
