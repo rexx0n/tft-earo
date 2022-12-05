@@ -1,0 +1,27 @@
+.card {
+  max-width: 677px;
+  border: none;
+  h4 {
+    font-family: "Acrom";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    padding: 28px 0 27px 33px;
+    background-color:#6777FF ;
+    border-radius: 30px 30px 0px 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: -2px;
+  }
+  &-body {
+    padding: 0;
+    margin-top: 45px;
+    margin-bottom: 21px;
+  }
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
