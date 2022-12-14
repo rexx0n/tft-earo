@@ -1,3 +1,9 @@
+.certificate-bg {
+    background: url(../img/bg-serf.png);
+}
 .certificate {
-    
+    display: flex;
+    img {
+        margin-left: -20px
+    }
 }
