@@ -1,9 +1,29 @@
 .certificate-bg {
-    background: url(../img/bg-serf.png);
+  background: url(../img/bg-serf.png);
 }
 .certificate {
+  display: flex;
+  margin-top: 69px;
+  img {
+    margin-left: -167px;
+    margin-top: -61px;
+  }
+  & > div {
     display: flex;
-    img {
-        margin-left: -20px
-    }
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -145px;
+  }
+  h3 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .gift {
+    max-height: 419px;
+  }
 }
